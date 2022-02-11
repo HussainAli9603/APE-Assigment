@@ -56,6 +56,25 @@
       "E": "2022-2-11",
       "F": "2022-2-12",
       "G": "2022-2-13"
+    },
+    {
+      "id": 12756,
+      "startDate": "2022-02-12",
+      "location": "Site D",
+      "monday": "",
+      "tuesday": "",
+      "wednesday": "",
+      "thursday": "",
+      "friday": "",
+      "saturday": "Excavator 5",
+      "sunday": "",
+      "A": "2022-2-7",
+      "B": "2022-2-8",
+      "C": "2022-2-9",
+      "D": "2022-2-10",
+      "E": "2022-2-11",
+      "F": "2022-2-12",
+      "G": "2022-2-13"
     }
   ],
   "working": [
@@ -108,6 +127,16 @@
       "excavator3": "Site C",
       "excavator4": "",
       "excavator5": ""
+    },
+    {
+      "id": 20790,
+      "startDate": "2022-02-12",
+      "day": "Saturday",
+      "excavator1": "",
+      "excavator2": "",
+      "excavator3": "",
+      "excavator4": "",
+      "excavator5": "Site D"
     }
   ]
 }
