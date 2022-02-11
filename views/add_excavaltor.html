@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content = "">
+    <title>APE Assignment</title>
+    <link rel="stylesheet" href="/style.css">
+    <meta name="description" content = "this is the APE assignment for excavator rental">
+</head>
+<body>
+
+    <div class="wrap">
+        <header>
+            <img src="/img/Company Logo.PNG" alt="Logo for company site.">
+        </header>
+    
+        <nav>
+            <a href="/view-all">SCHEDULE</a>
+            <a href="/add-excavator">ADD EXCAVATOR</a>
+            <a href="Site.html">ROSTERING</a>
+            <a href="/">BOOKING</a>
+            <a href="#">CONTACT US</a>
+        </nav>
+        
+        <main>
+            <h1>Schedule new Equipment here!</h1>
+            <p>Register the excavator, the site your wish to deploy, and schedule will be booked for you</p>
+            <h2>Please fill up below</h2>
+            <form action="/add-excavator" method="post" id="myForm" class="form">
+                <!-- This is to take Name from Form -->
+                <div class="form-group row">
+                    <label>
+                        Name
+                    </label>
+                    <input type="text" name="name" class="form-control" placeholder="Excavator Model" required>
+                    <br>
+                 
+                <!-- This is to take Excavator Model Name from Form -->
+                <div class="form-group row">
+                    <label>
+                        Excavator Model Name
+                    </label>
+                    <div>
+                        <input type="text" name="excavatorModelName" class="form-control" placeholder="Excavator Model" required>
+                    </div>
+                    <br>  
+                </div>
+                    
+                <!-- This is to take Name of Site from Form -->
+                
+            </form>
+        </main>
+    
+        <footer>
+            <p>Tampines, Singapore, Excavator Rental - Copyright 2022</p>
+        </footer>
+    
+    </div>
+    <script src="/script.js"></script>
+    <script src="/server.js"></script>
+</body>
+</html>
